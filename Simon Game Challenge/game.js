@@ -5,4 +5,5 @@ function nextSequence (){
   let randomNumber = Math.floor(Math.random()*4);
   var randomChosenColour = buttonColors[randomNumber];
   gamePattern.push(randomChosenColour);
+  $("#" + randomChosenColour)
 }
